@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp.helpers;
+package com.ImprovedClima.androidweatherapp.helpers;
 
 
 public class Helper {

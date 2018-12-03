@@ -1,15 +1,15 @@
-package com.inducesmile.androidweatherapp.json;
+package com.ImprovedClima.androidweatherapp.json;
 
 
 public class Weather {
 
-    WeatherResults weatherResults;
+    com.ImprovedClima.androidweatherapp.json.WeatherResults weatherResults;
 
-    public Weather(WeatherResults weatherResults){
+    public Weather(com.ImprovedClima.androidweatherapp.json.WeatherResults weatherResults){
         this.weatherResults = weatherResults;
     }
 
-    public WeatherResults getWeatherResults() {
+    public com.ImprovedClima.androidweatherapp.json.WeatherResults getWeatherResults() {
         return weatherResults;
     }
 }

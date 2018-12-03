@@ -1,11 +1,11 @@
-package com.inducesmile.androidweatherapp.database;
+package com.ImprovedClima.androidweatherapp.database;
 
 
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 
-import com.inducesmile.androidweatherapp.entity.DatabaseLocationObject;
+import com.ImprovedClima.androidweatherapp.entity.DatabaseLocationObject;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp.adapters;
+package com.ImprovedClima.androidweatherapp.adapters;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -6,8 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.inducesmile.androidweatherapp.R;
-import com.inducesmile.androidweatherapp.entity.WeatherObject;
+import com.ImprovedClima.androidweatherapp.R;
+import com.ImprovedClima.androidweatherapp.entity.WeatherObject;
 
 import java.util.List;
 

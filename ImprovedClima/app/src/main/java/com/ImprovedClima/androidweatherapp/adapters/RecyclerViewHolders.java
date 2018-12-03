@@ -1,11 +1,11 @@
-package com.inducesmile.androidweatherapp.adapters;
+package com.ImprovedClima.androidweatherapp.adapters;
 
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.inducesmile.androidweatherapp.R;
+import com.ImprovedClima.androidweatherapp.R;
 
 public class RecyclerViewHolders extends RecyclerView.ViewHolder{
 

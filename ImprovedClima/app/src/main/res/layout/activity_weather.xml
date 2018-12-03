@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/colorBackground"
-    tools:context="com.inducesmile.androidweatherapp.WeatherActivity">
+    tools:context="com.ImprovedClima.androidweatherapp.WeatherActivity">
 
     <LinearLayout
         android:layout_width="match_parent"

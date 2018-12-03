@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp;
+package com.ImprovedClima.androidweatherapp;
 
 import android.content.Intent;
 import android.os.AsyncTask;
@@ -10,15 +10,17 @@ import android.widget.AutoCompleteTextView;
 import android.widget.Button;
 import android.widget.Toast;
 
+import com.ImprovedClima.androidweatherapp.ListLocationActivity;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
-import com.inducesmile.androidweatherapp.adapters.CustomArrayAdapter;
-import com.inducesmile.androidweatherapp.database.DatabaseQuery;
-import com.inducesmile.androidweatherapp.entity.ListJsonObject;
-import com.inducesmile.androidweatherapp.helpers.CustomSharedPreference;
-import com.inducesmile.androidweatherapp.helpers.Helper;
+import com.ImprovedClima.androidweatherapp.adapters.CustomArrayAdapter;
+import com.ImprovedClima.androidweatherapp.database.DatabaseQuery;
+import com.ImprovedClima.androidweatherapp.entity.ListJsonObject;
+import com.ImprovedClima.androidweatherapp.helpers.CustomSharedPreference;
+import com.ImprovedClima.androidweatherapp.R;
+import com.ImprovedClima.androidweatherapp.helpers.Helper;
 
 import java.util.List;
 

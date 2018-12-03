@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp.entity;
+package com.ImprovedClima.androidweatherapp.entity;
 
 
 public class LocationObject {

@@ -1,7 +1,7 @@
-package com.inducesmile.androidweatherapp.entity;
+package com.ImprovedClima.androidweatherapp.entity;
 
 import com.google.gson.annotations.SerializedName;
-import com.inducesmile.androidweatherapp.entity.Coord;
+import com.ImprovedClima.androidweatherapp.entity.Coord;
 
 public class ListJsonObject {
 

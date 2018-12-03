@@ -1,11 +1,11 @@
-package com.inducesmile.androidweatherapp.helpers;
+package com.ImprovedClima.androidweatherapp.helpers;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.inducesmile.androidweatherapp.entity.ListJsonObject;
+import com.ImprovedClima.androidweatherapp.entity.ListJsonObject;
 
 import java.lang.reflect.Type;
 import java.util.List;
@@ -17,7 +17,7 @@ public class CustomSharedPreference {
     private Gson gson;
 
     public CustomSharedPreference(Context context) {
-        sharedPref = context.getSharedPreferences(Helper.PREFS_TAG, Context.MODE_PRIVATE);
+        sharedPref = context.getSharedPreferences(com.ImprovedClima.androidweatherapp.helpers.Helper.PREFS_TAG, Context.MODE_PRIVATE);
         gson = new Gson();
     }
 
@@ -33,18 +33,18 @@ public class CustomSharedPreference {
     }
 
     public void setDataSourceIfPresent(boolean isData){
-        sharedPref.edit().putBoolean(Helper.IS_DATA_PRESENT, isData).apply();
+        sharedPref.edit().putBoolean(com.ImprovedClima.androidweatherapp.helpers.Helper.IS_DATA_PRESENT, isData).apply();
     }
 
     public boolean getDataSourceIfPresent(){
-        return sharedPref.getBoolean(Helper.IS_DATA_PRESENT, false);
+        return sharedPref.getBoolean(com.ImprovedClima.androidweatherapp.helpers.Helper.IS_DATA_PRESENT, false);
     }
 
     public void setLocationInPreference(String cityName){
-        sharedPref.edit().putString(Helper.LOCATION_PREFS, cityName).apply();
+        sharedPref.edit().putString(com.ImprovedClima.androidweatherapp.helpers.Helper.LOCATION_PREFS, cityName).apply();
     }
 
     public String getLocationInPreference(){
-        return sharedPref.getString(Helper.LOCATION_PREFS, "");
+        return sharedPref.getString(com.ImprovedClima.androidweatherapp.helpers.Helper.LOCATION_PREFS, "");
     }
 }

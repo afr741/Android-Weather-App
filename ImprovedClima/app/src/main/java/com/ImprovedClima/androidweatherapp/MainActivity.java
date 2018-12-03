@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp;
+package com.ImprovedClima.androidweatherapp;
 
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
@@ -12,10 +12,11 @@ import android.view.WindowManager;
 
 import com.google.common.collect.Lists;
 import com.google.common.math.IntMath;
-import com.inducesmile.androidweatherapp.entity.ListJsonObject;
-import com.inducesmile.androidweatherapp.helpers.CustomApplication;
-import com.inducesmile.androidweatherapp.helpers.CustomSharedPreference;
-import com.inducesmile.androidweatherapp.helpers.Helper;
+import com.ImprovedClima.androidweatherapp.entity.ListJsonObject;
+import com.ImprovedClima.androidweatherapp.helpers.CustomApplication;
+import com.ImprovedClima.androidweatherapp.helpers.CustomSharedPreference;
+import com.ImprovedClima.androidweatherapp.helpers.Helper;
+import com.ImprovedClima.androidweatherapp.R;
 
 import java.io.InputStream;
 import java.math.RoundingMode;
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable(){
             @Override
             public void run(){
-                Intent startActivityIntent = new Intent(MainActivity.this, WeatherActivity.class);
+                Intent startActivityIntent = new Intent(MainActivity.this, com.ImprovedClima.androidweatherapp.WeatherActivity.class);
                 startActivity(startActivityIntent);
                 MainActivity.this.finish();
             }

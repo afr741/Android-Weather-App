@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Android Weather App</string>
+    <string name="app_name">Clima PLUS</string>
     <string name="city_country">St.Johns,Canada</string>
     <string name="date_today">Friday, 23 November</string>
     <string name="current_temperature">-6</string>

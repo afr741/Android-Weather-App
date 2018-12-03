@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp.adapters;
+package com.ImprovedClima.androidweatherapp.adapters;
 
 import android.graphics.Color;
 import android.support.v7.widget.RecyclerView;
@@ -6,8 +6,8 @@ import android.view.View;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-import com.inducesmile.androidweatherapp.R;
-import com.inducesmile.androidweatherapp.entity.LocationObject;
+import com.ImprovedClima.androidweatherapp.R;
+import com.ImprovedClima.androidweatherapp.entity.LocationObject;
 
 import java.util.List;
 

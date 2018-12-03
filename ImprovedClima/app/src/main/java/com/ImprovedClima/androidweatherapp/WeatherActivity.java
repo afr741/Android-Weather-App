@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp;
+package com.ImprovedClima.androidweatherapp;
 
 import android.Manifest;
 import android.app.Service;
@@ -36,17 +36,17 @@ import com.android.volley.toolbox.Volley;
 import com.github.pavlospt.CircleView;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.inducesmile.androidweatherapp.AddLocationActivity;
-import com.inducesmile.androidweatherapp.R;
-import com.inducesmile.androidweatherapp.adapters.RecyclerViewAdapter;
-import com.inducesmile.androidweatherapp.database.DatabaseQuery;
-import com.inducesmile.androidweatherapp.entity.WeatherObject;
-import com.inducesmile.androidweatherapp.helpers.CustomSharedPreference;
-import com.inducesmile.androidweatherapp.helpers.Helper;
-import com.inducesmile.androidweatherapp.json.FiveDaysForecast;
-import com.inducesmile.androidweatherapp.json.FiveWeathers;
-import com.inducesmile.androidweatherapp.json.Forecast;
-import com.inducesmile.androidweatherapp.json.LocationMapObject;
+import com.ImprovedClima.androidweatherapp.AddLocationActivity;
+import com.ImprovedClima.androidweatherapp.R;
+import com.ImprovedClima.androidweatherapp.adapters.RecyclerViewAdapter;
+import com.ImprovedClima.androidweatherapp.database.DatabaseQuery;
+import com.ImprovedClima.androidweatherapp.entity.WeatherObject;
+import com.ImprovedClima.androidweatherapp.helpers.CustomSharedPreference;
+import com.ImprovedClima.androidweatherapp.helpers.Helper;
+import com.ImprovedClima.androidweatherapp.json.FiveDaysForecast;
+import com.ImprovedClima.androidweatherapp.json.FiveWeathers;
+import com.ImprovedClima.androidweatherapp.json.Forecast;
+import com.ImprovedClima.androidweatherapp.json.LocationMapObject;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

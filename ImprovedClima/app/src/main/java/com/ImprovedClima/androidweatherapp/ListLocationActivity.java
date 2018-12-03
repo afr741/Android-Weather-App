@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp;
+package com.ImprovedClima.androidweatherapp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,12 +18,13 @@ import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.inducesmile.androidweatherapp.adapters.LocationAdapter;
-import com.inducesmile.androidweatherapp.database.DatabaseQuery;
-import com.inducesmile.androidweatherapp.entity.DatabaseLocationObject;
-import com.inducesmile.androidweatherapp.entity.LocationObject;
-import com.inducesmile.androidweatherapp.helpers.Helper;
-import com.inducesmile.androidweatherapp.json.LocationMapObject;
+import com.ImprovedClima.androidweatherapp.adapters.LocationAdapter;
+import com.ImprovedClima.androidweatherapp.database.DatabaseQuery;
+import com.ImprovedClima.androidweatherapp.entity.DatabaseLocationObject;
+import com.ImprovedClima.androidweatherapp.entity.LocationObject;
+import com.ImprovedClima.androidweatherapp.helpers.Helper;
+import com.ImprovedClima.androidweatherapp.R;
+import com.ImprovedClima.androidweatherapp.json.LocationMapObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -75,7 +76,7 @@ public class ListLocationActivity extends AppCompatActivity {
         addLocation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent addLocationIntent = new Intent(ListLocationActivity.this, AddLocationActivity.class);
+                Intent addLocationIntent = new Intent(ListLocationActivity.this, com.ImprovedClima.androidweatherapp.AddLocationActivity.class);
                 startActivity(addLocationIntent);
             }
         });

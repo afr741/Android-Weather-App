@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp.entity;
+package com.ImprovedClima.androidweatherapp.entity;
 
 
 import com.google.gson.annotations.SerializedName;

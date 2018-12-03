@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp.json;
+package com.ImprovedClima.androidweatherapp.json;
 
 
 import java.util.List;
@@ -7,23 +7,23 @@ public class LocationMapObject {
 
     private Coord coord;
 
-    private List<WeatherResults> weather;
+    private List<com.ImprovedClima.androidweatherapp.json.WeatherResults> weather;
 
     private String base;
 
-    private Main main;
+    private com.ImprovedClima.androidweatherapp.json.Main main;
 
     private String visibility;
 
-    private Wind wind;
+    private com.ImprovedClima.androidweatherapp.json.Wind wind;
 
-    private Rain rain;
+    private com.ImprovedClima.androidweatherapp.json.Rain rain;
 
-    private Clouds clouds;
+    private com.ImprovedClima.androidweatherapp.json.Clouds clouds;
 
     private String dt;
 
-    private Sys sys;
+    private com.ImprovedClima.androidweatherapp.json.Sys sys;
 
     private String id;
 
@@ -31,7 +31,7 @@ public class LocationMapObject {
 
     private String cod;
 
-    public LocationMapObject(Coord coord, List<WeatherResults> weather, String base, Main main, String visibility, Wind wind, Rain rain, Clouds clouds, String dt, Sys sys, String id, String name, String cod) {
+    public LocationMapObject(Coord coord, List<com.ImprovedClima.androidweatherapp.json.WeatherResults> weather, String base, com.ImprovedClima.androidweatherapp.json.Main main, String visibility, com.ImprovedClima.androidweatherapp.json.Wind wind, com.ImprovedClima.androidweatherapp.json.Rain rain, com.ImprovedClima.androidweatherapp.json.Clouds clouds, String dt, com.ImprovedClima.androidweatherapp.json.Sys sys, String id, String name, String cod) {
         this.coord = coord;
         this.weather = weather;
         this.base = base;
@@ -51,7 +51,7 @@ public class LocationMapObject {
         return coord;
     }
 
-    public List<WeatherResults> getWeather() {
+    public List<com.ImprovedClima.androidweatherapp.json.WeatherResults> getWeather() {
         return weather;
     }
 
@@ -59,7 +59,7 @@ public class LocationMapObject {
         return base;
     }
 
-    public Main getMain() {
+    public com.ImprovedClima.androidweatherapp.json.Main getMain() {
         return main;
     }
 
@@ -67,15 +67,15 @@ public class LocationMapObject {
         return visibility;
     }
 
-    public Wind getWind() {
+    public com.ImprovedClima.androidweatherapp.json.Wind getWind() {
         return wind;
     }
 
-    public Rain getRain() {
+    public com.ImprovedClima.androidweatherapp.json.Rain getRain() {
         return rain;
     }
 
-    public Clouds getClouds() {
+    public com.ImprovedClima.androidweatherapp.json.Clouds getClouds() {
         return clouds;
     }
 
@@ -83,7 +83,7 @@ public class LocationMapObject {
         return dt;
     }
 
-    public Sys getSys() {
+    public com.ImprovedClima.androidweatherapp.json.Sys getSys() {
         return sys;
     }
 

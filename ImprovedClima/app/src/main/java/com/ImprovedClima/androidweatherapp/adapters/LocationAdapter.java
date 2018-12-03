@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp.adapters;
+package com.ImprovedClima.androidweatherapp.adapters;
 
 
 import android.content.Context;
@@ -10,11 +10,11 @@ import android.view.ViewGroup;
 import android.widget.CompoundButton;
 import android.widget.RadioButton;
 
-import com.inducesmile.androidweatherapp.database.DatabaseQuery;
-import com.inducesmile.androidweatherapp.entity.LocationObject;
-import com.inducesmile.androidweatherapp.R;
-import com.inducesmile.androidweatherapp.entity.ViewEntityObject;
-import com.inducesmile.androidweatherapp.helpers.CustomSharedPreference;
+import com.ImprovedClima.androidweatherapp.database.DatabaseQuery;
+import com.ImprovedClima.androidweatherapp.entity.LocationObject;
+import com.ImprovedClima.androidweatherapp.R;
+import com.ImprovedClima.androidweatherapp.entity.ViewEntityObject;
+import com.ImprovedClima.androidweatherapp.helpers.CustomSharedPreference;
 
 import java.util.ArrayList;
 import java.util.List;

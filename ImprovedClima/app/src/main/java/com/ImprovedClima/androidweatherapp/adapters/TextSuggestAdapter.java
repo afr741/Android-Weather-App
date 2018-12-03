@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp.adapters;
+package com.ImprovedClima.androidweatherapp.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,8 +9,8 @@ import android.widget.Filter;
 import android.widget.Filterable;
 import android.widget.TextView;
 
-import com.inducesmile.androidweatherapp.entity.ListJsonObject;
-import com.inducesmile.androidweatherapp.R;
+import com.ImprovedClima.androidweatherapp.entity.ListJsonObject;
+import com.ImprovedClima.androidweatherapp.R;
 
 import java.util.ArrayList;
 import java.util.List;

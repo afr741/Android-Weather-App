@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp.json;
+package com.ImprovedClima.androidweatherapp.json;
 
 public class Coord {
 

@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp.database;
+package com.ImprovedClima.androidweatherapp.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

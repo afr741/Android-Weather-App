@@ -1,4 +1,4 @@
-package com.inducesmile.androidweatherapp.helpers;
+package com.ImprovedClima.androidweatherapp.helpers;
 
 import android.app.Application;
 import android.content.res.AssetManager;
@@ -6,7 +6,7 @@ import android.content.res.AssetManager;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.stream.JsonReader;
-import com.inducesmile.androidweatherapp.entity.ListJsonObject;
+import com.ImprovedClima.androidweatherapp.entity.ListJsonObject;
 
 import java.io.IOException;
 import java.io.InputStream;
